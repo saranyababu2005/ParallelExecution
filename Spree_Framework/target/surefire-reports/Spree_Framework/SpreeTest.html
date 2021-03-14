@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>TestNG:  SpreeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SpreeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Mar 14 15:45:33 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>58 seconds (58510 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.SpreeTest.verifyDisplayedProducts()'><b>verifyDisplayedProducts</b><br>Test class: test.SpreeTest<br>Parameters: Bags, $20.00 or over<br/>
+<a href="#Output-1089904596" onClick='toggleBox("Output-1089904596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1089904596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1089904596">
+verifyDisplayedProducts PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>test.SpreeTest@13acb0d1</td></tr>
+<tr>
+<td title='test.SpreeTest.validateOrderAmount()'><b>validateOrderAmount</b><br>Test class: test.SpreeTest<br/>
+<a href="#Output-1527527867" onClick='toggleBox("Output-1527527867", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1527527867" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1527527867">
+validateOrderAmount PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>test.SpreeTest@13acb0d1</td></tr>
+<tr>
+<td title='test.SpreeTest.verifyDisplayedProducts()'><b>verifyDisplayedProducts</b><br>Test class: test.SpreeTest<br>Parameters: Mugs, $10.00 - $15.00<br/>
+<a href="#Output-580606512" onClick='toggleBox("Output-580606512", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-580606512" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-580606512">
+verifyDisplayedProducts PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>test.SpreeTest@13acb0d1</td></tr>
+<tr>
+<td title='test.SpreeTest.verifyDisplayedProducts()'><b>verifyDisplayedProducts</b><br>Test class: test.SpreeTest<br>Parameters: Bags, $15.00 - $18.00<br/>
+<a href="#Output-1281717256" onClick='toggleBox("Output-1281717256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1281717256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1281717256">
+verifyDisplayedProducts PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>test.SpreeTest@13acb0d1</td></tr>
+<tr>
+<td title='test.SpreeTest.verifySearch()'><b>verifySearch</b><br>Test class: test.SpreeTest<br>Parameters: Ruby<br/>
+<a href="#Output-1127638872" onClick='toggleBox("Output-1127638872", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1127638872" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1127638872">
+verifySearch PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>test.SpreeTest@13acb0d1</td></tr>
+<tr>
+<td title='test.SpreeTest.verifyCartIsEmpty()'><b>verifyCartIsEmpty</b><br>Test class: test.SpreeTest<br/>
+<a href="#Output-652468076" onClick='toggleBox("Output-652468076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-652468076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-652468076">
+verifyCartIsEmpty PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>test.SpreeTest@13acb0d1</td></tr>
+<tr>
+<td title='test.SpreeTest.verifySearch()'><b>verifySearch</b><br>Test class: test.SpreeTest<br>Parameters: Apache<br/>
+<a href="#Output-1836436858" onClick='toggleBox("Output-1836436858", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1836436858" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1836436858">
+verifySearch PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>test.SpreeTest@13acb0d1</td></tr>
+</table><p>
+</body>
+</html>

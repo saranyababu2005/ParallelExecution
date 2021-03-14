@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[verifyDisplayedProducts PASSED]]>
+    </line>
+    <line>
+      <![CDATA[validateOrderAmount PASSED]]>
+    </line>
+    <line>
+      <![CDATA[verifySearch PASSED]]>
+    </line>
+    <line>
+      <![CDATA[verifyCartIsEmpty PASSED]]>
+    </line>
+    <line>
+      <![CDATA[verifyDisplayedProducts PASSED]]>
+    </line>
+    <line>
+      <![CDATA[verifySearch PASSED]]>
+    </line>
+    <line>
+      <![CDATA[verifyDisplayedProducts PASSED]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-14T15:45:33 IST" name="Spree_Framework" finished-at="2021-03-14T15:46:32 IST" duration-ms="58510">
+    <groups>
+    </groups>
+    <test started-at="2021-03-14T15:45:33 IST" name="SpreeTest" finished-at="2021-03-14T15:46:32 IST" duration-ms="58510">
+      <class name="test.SpreeTest">
+        <test-method is-config="true" signature="baseDriver()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:33 IST" name="baseDriver" finished-at="2021-03-14T15:45:36 IST" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseDriver -->
+        <test-method is-config="true" signature="baseDriver()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:33 IST" name="baseDriver" finished-at="2021-03-14T15:45:35 IST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseDriver -->
+        <test-method is-config="true" signature="baseDriver()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:33 IST" name="baseDriver" finished-at="2021-03-14T15:45:35 IST" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseDriver -->
+        <test-method signature="verifySearch(java.lang.String)[pri:1, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:35 IST" name="verifySearch" data-provider="searchTestData" finished-at="2021-03-14T15:45:55 IST" duration-ms="20332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ruby]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifySearch PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method signature="verifyDisplayedProducts(java.lang.String,java.lang.String)[pri:2, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:35 IST" name="verifyDisplayedProducts" data-provider="dataPriceRange" finished-at="2021-03-14T15:45:49 IST" duration-ms="13531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bags]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$15.00 - $18.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyDisplayedProducts PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedProducts -->
+        <test-method signature="validateOrderAmount()[pri:4, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:36 IST" name="validateOrderAmount" finished-at="2021-03-14T15:45:50 IST" duration-ms="13899" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validateOrderAmount PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateOrderAmount -->
+        <test-method is-config="true" signature="logoutSpree()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:49 IST" name="logoutSpree" finished-at="2021-03-14T15:45:58 IST" duration-ms="8689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSpree -->
+        <test-method is-config="true" signature="logoutSpree()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:50 IST" name="logoutSpree" finished-at="2021-03-14T15:45:56 IST" duration-ms="5709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSpree -->
+        <test-method is-config="true" signature="logoutSpree()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:55 IST" name="logoutSpree" finished-at="2021-03-14T15:46:01 IST" duration-ms="5618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSpree -->
+        <test-method is-config="true" signature="baseDriver()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:58 IST" name="baseDriver" finished-at="2021-03-14T15:46:02 IST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseDriver -->
+        <test-method is-config="true" signature="baseDriver()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:45:58 IST" name="baseDriver" finished-at="2021-03-14T15:46:02 IST" duration-ms="4662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseDriver -->
+        <test-method is-config="true" signature="baseDriver()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:01 IST" name="baseDriver" finished-at="2021-03-14T15:46:08 IST" duration-ms="7578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseDriver -->
+        <test-method signature="verifyCartIsEmpty()[pri:5, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:02 IST" name="verifyCartIsEmpty" finished-at="2021-03-14T15:46:14 IST" duration-ms="12441" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyCartIsEmpty PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartIsEmpty -->
+        <test-method signature="verifyDisplayedProducts(java.lang.String,java.lang.String)[pri:2, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:02 IST" name="verifyDisplayedProducts" data-provider="dataPriceRange" finished-at="2021-03-14T15:46:16 IST" duration-ms="13945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mugs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$10.00 - $15.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyDisplayedProducts PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedProducts -->
+        <test-method signature="verifySearch(java.lang.String)[pri:1, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:08 IST" name="verifySearch" data-provider="searchTestData" finished-at="2021-03-14T15:46:20 IST" duration-ms="12026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apache]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifySearch PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="logoutSpree()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:14 IST" name="logoutSpree" finished-at="2021-03-14T15:46:21 IST" duration-ms="7131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSpree -->
+        <test-method is-config="true" signature="logoutSpree()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:16 IST" name="logoutSpree" finished-at="2021-03-14T15:46:20 IST" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSpree -->
+        <test-method is-config="true" signature="baseDriver()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:20 IST" name="baseDriver" finished-at="2021-03-14T15:46:23 IST" duration-ms="3202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseDriver -->
+        <test-method is-config="true" signature="logoutSpree()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:20 IST" name="logoutSpree" finished-at="2021-03-14T15:46:22 IST" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSpree -->
+        <test-method signature="verifyDisplayedProducts(java.lang.String,java.lang.String)[pri:2, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:23 IST" name="verifyDisplayedProducts" data-provider="dataPriceRange" finished-at="2021-03-14T15:46:30 IST" duration-ms="6624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bags]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$20.00 or over]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyDisplayedProducts PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedProducts -->
+        <test-method is-config="true" signature="logoutSpree()[pri:0, instance:test.SpreeTest@13acb0d1]" started-at="2021-03-14T15:46:30 IST" name="logoutSpree" finished-at="2021-03-14T15:46:32 IST" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSpree -->
+      </class> <!-- test.SpreeTest -->
+    </test> <!-- SpreeTest -->
+  </suite> <!-- Spree_Framework -->
+</testng-results>
